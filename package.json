@@ -1,0 +1,68 @@
+{
+  "name": "react-portfolio-template",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "sass": "^1.77.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.57",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "gh-pages": "^6.1.1",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^5.4.19",
+    "vitest": "^2.1.9"
+  }
+}
